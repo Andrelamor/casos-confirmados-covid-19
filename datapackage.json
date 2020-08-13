@@ -16,21 +16,36 @@
             "type": "string",
             "format": "default",
             "title": "Unidade Regional de Saúde",
-            "description": "Unidade Regional de Saúde"
+            "description": "Unidade Regional de Saúde",
+            "constraints":{
+              "missingValues": [
+          "NA",
+          ""]
+           }
           },
           {
             "name": "MICRO",
             "type": "string",
             "format": "default",
             "title": "Microrregião",
-            "description": "Microrregião de Saúde"
+            "description": "Microrregião de Saúde",
+            "constraints":{
+              "missingValues": [
+          "NA",
+          ""]
+           }
           },
           {
             "name": "MACRO",
             "type": "string",
             "format": "default",
             "title": "Macrorregião",
-            "description": "Macrorregião de Saúde"
+            "description": "Macrorregião de Saúde",
+            "constraints":{
+              "missingValues": [
+          "NA",
+          ""]
+           }
           },
           {
             "name": "ID",
