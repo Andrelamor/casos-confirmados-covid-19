@@ -7,8 +7,7 @@
       "path": "http://coronavirus.saude.mg.gov.br/images/csv-microdados/csv_sistemas.csv",
       "title": "Casos confirmados por COVID-19",
       "description": "Contém dados sobre os casos confirmados de COVID-19 em Minas Gerais. O total de casos confirmados é a soma dos casos confirmados que não evoluíram para óbito e dos óbitos confirmados por COVID-19.",
-      "format": "csv",
-      "mediatype": "text/csv",
+      "format": "xlsx",
       "encoding": "utf-8",
       "schema": {
         "fields": [
@@ -126,7 +125,7 @@
           },
           {
             "name": "DATA_ATUALIZACAO",
-            "type": "string",
+            "type": "date",
             "format": "default",
             "title": "Data de Atualização",
             "description": "Data de upload do arquivo"
@@ -143,10 +142,7 @@
           "NA",
           "" 
         ]
-     },
-      "dialect": {
-      "delimiter": ";"
-      }
+     }
     }
   ],
   "keywords": [
